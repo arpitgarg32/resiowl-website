@@ -1,0 +1,92 @@
+.paralla{
+    background-image:url("1.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.5;
+    height:100%;
+}
+.parallax{
+    background-image:url("2.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.5;
+    height:100%;
+}
+
+.logoimg{
+    top:-2px;
+    position: absolute;
+    height: 50px;
+    width: 120px;
+
+} 
+.nb{
+    width: 100%;
+    border-radius: 0px;
+    z-index:1000;
+    position:fixed;
+    opacity: 0.8;
+}
+.main
+{
+    text-align: center;
+    letter-spacing: 1.5em;
+    color: teal;
+}
+.up{
+    z-index: 500;
+}
+.back{
+    width: 100%;
+    height: 100%;
+}
+.banner img{
+left:202px;
+}
+.banner
+{   height: 300px;
+    background-color: rgba(0, 0, 0,0);
+    margin: 10px 100px 100px;
+    padding-left: 200px;
+}
+.banner1
+{   height: 300px;
+    background-color: rgba(0, 0, 0,0);
+    margin:40px 120px 100px;
+}
+
+.video{
+    margin-left: 80px;
+}
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+    left:-100px;
+    top: -70px;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    font-size: 25;
+}
+.tab{
+    width: 100%;
+    text-align: center;
+}
+.sans{
+    font-family: agency fb;
+}
+.tab tr{
+    font-family: sans-serif;
+    font-weight:bold;  
+    font-size: 20px;
+}
