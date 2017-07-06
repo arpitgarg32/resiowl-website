@@ -1,0 +1,46 @@
+.footer {
+	width: 100%;
+	color: #ccc;
+	padding: 0 10%;
+	background-color: #555;
+	
+}
+.image {
+	border-radius: 100%;
+}
+
+.detail {
+	width: 20%;
+	float: left;
+	margin: 20px 0px;
+	padding: 10px;
+}
+
+
+.message {
+	width: 100%;
+	height:50%;
+	text-align:center;
+}
+.img1 {
+	
+	width: 100%;
+}
+.img1 img {
+	width:163px;
+	height: 177px;
+}
+.QL {
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+}
+.Q {
+	margin:0;
+}
+.links {
+	color: #aaa;
+	text-decoration: none;
+	border:none;
+	padding:0 20px;
+}

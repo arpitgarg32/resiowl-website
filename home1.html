@@ -2,19 +2,28 @@
 <html>
     <head>
     
-<meta charset="UTF-8">
-<link rel="stylesheet" href="bootstrap.css">
-<link rel="stylesheet" href="style1.css">
-              
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="stylesheet" href="style1.css">
+            <link rel="stylesheet" href="footer.css">
+            <link rel="stylesheet" href="demo.css">
+	        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+<link href="iframe.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="resiowl.js"></script>
     </head>
         <body>
         
-            <div class="top">
+            <!-- --------------------------------- top bar   ------------------------------- -->
             
                 <nav class="nb navbar navbar-inverse" style="margin:0px">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -25,94 +34,224 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Our Mission</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Amneties</a></li>
+                        <li><a href="#">Fetch a Nest</a></li>
+                        <li><a href="#">Amenities</a></li>
+                        <li><a href="#frame">Contact Us</a></li>
                         <li><a href="#">Login | Register</a></li>
                     </ul>
                     </div>  
                 </div>
             </nav>
             <br>
-     <div  class="banner">
-       <div class="container">
-           <video id="video" width="85%" height="75%" control="false"  autoplay >
-           <source src="video.mp4" type="video/mp4" />
-           </video>
-       <div class="overlay">
-          <img src="vid.png" alt="" >
-       </div>
+             <!-- --------------------------------- video logo div  ------------------------------- -->
+            
+            <div  class="banner row">
+                <div class="col-xs-12 col-sm-3 stars"></div>
+                <div class="col-xs-12 col-sm-6 slider">
+                    <video  width=100% control="false"  autoplay>
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+               
+                    <center><h1 class="text-primary">Helping Owls Fetch Nests</h1>
+                    <br>
+                    <a href="#frame"><button class="btn-primary">Know Us</button></a></center>
+                    <br>
+          </div>
+
+               <div class="col-xs-0 col-sm-3 stars"></div>
+
+               
+                </div>
+
+            <!-- --------------------------------- search div  ------------------------------- -->
+ 
+
+        <div class="paralla">
+            <div class="row">
+                <div class="col-xs-0 col-sm-2"></div>
+                <div class="col-xs-8 col-sm-6">
+                    <input type="text" class="form-control" placeholder="Search Landmarks and Pincodes">
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <button class="btn btn-primary btn-block">Search</button>
+                </div>
+                <div class="col-xs-0 col-sm-2"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-0 col-sm-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="btn-toolbar">
+                        
+                            <div class="btn-group">
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                Dropdown
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" style=" position: relative;">
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                            </ul>
+                            </div>
+                            <div class="btn-group">
+                            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                Dropdown
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                                <li><a href="#">Dropdown link</a></li>
+                            </ul>
+                            </div>
+                          <div class="cs-select cs-skin-rotate">
+                            <span class="cs-placeholder">Choose your option</span>
+                            
+                            <div class="cs-options">
+                                <ul>
+                                    <li data-option data-value="1" class="cs-selected"><span>Option 1</span></li>
+                                    <li data-option data-value="2"><span>Option 2</span></li>
+                                    <li data-option data-value="3"><span>Option 3</span></li>
+                                </ul>
+                            </div>
+                            <select class="cs-select cs-skin-rotate">
+                                <option value="" disabled selected>Choose your option</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-0 col-sm-2"></div>
+
+            </div> 
+        </div> 
+ 
+             <!-- --------------------------------- simplified div ------------------------------- -->
+ 
+ 
+            <div  class="banner" style="text-align:center; height:300px">
+               <div class="grid how-work-widget dtails-center">
+      <h2>Finding Nest Simplified<br><br></h2>
+      <div class="details">
+        <div class="col-1-1">
+          <table style="text-align:center;margin-left:10%">
+              <tr>
+            <td style="padding-left:90px">
+              <span class="col-1-4">
+                <img alt="how work widget section: first search icon for search house" src="https://d1i673fcimy4cb.cloudfront.net/v3/search-icn1.png">
+                <h3>Search</h3>
+                <p>Find a place that fits all <br> your preferences.</p>
+              </span>
+            </td>
+            <td style="padding-left:90px">
+              <span class="col-1-4">
+                <img alt="how work widget section: then visit icon for schedule a visit for that house" src="https://d1i673fcimy4cb.cloudfront.net/v3/visit-icn1.png">
+                <h3>Visit</h3>
+                <p>Finalise a time and date to <br> visit the homes you like.</p>
+              </span>
+            </td>
+            <td style="padding-left:90px">
+              <span class="col-1-4">
+                <img alt="how work widget section: then book icon for secure payment on booking bed or room or house" src="https://d1i673fcimy4cb.cloudfront.net/v3/book-icn1.png">
+                <h3>Book</h3>
+                <p>Pay a token amount online to <br> lock the bed / room / house.</p>
+              </span>
+            </td>
+            <td style="padding-left:90px">
+              <span class="col-1-4">
+                <img alt="how work widget section: move-in icon for ready to move-in house" src="https://d1i673fcimy4cb.cloudfront.net/v3/move-icn1.png">
+                <h3>Move-In</h3>
+                <p>Choose a move-in date <br> and just show up!</p>
+              </span>
+            </td>
+          </tr>
+         
+          </table>
+        </div>
+        <div class="clr"></div>
+      </div>
     </div>
                
             </div>
-      <div class="paralla" style="text-align:center;padding:8% 16.5%;"> 
-              <form class="navbar-form navbar-left" style="text-align:center;padding:10px ;" role="search">
-                        <div class="btn-group">
-                        <a href="#" class="btn btn-info">Info</a>
-                        <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                        </div>
-                        <div class="btn-group">
-                        <a href="#" class="btn btn-info">Info</a>
-                        <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                        </div>
-                        <div class="btn-group">
-                        <a href="#" class="btn btn-info">Info</a>
-                        <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                        </div>
-              <div class="form-group">
-         <span> <input type="text" class="form-control" placeholder="Search Landmarks and Pincodes" size="70"><span>
-        </div>
-        <button type="submit" class="btn btn-default">Search</button>
-      </form>
-      
-      </div>  
-            <div  class="banner1">
-                 <div class="main sans"><h1>† OUR SERVICES † </h1>
-       </div> 
-               <table class="tab">
-                   <tr><br> 
-                       <td><a href="#"><img src="per2.png" width="100%" height="110%" alt=""></a></td>
-                       <td><a href="#"><img src="person3.png" width="100%" height="110%" alt=""></a></td>
-                        <td><a href="#"><img src="flat2.jpg" width="90%" height="80%" alt=""></a></td>
-                   </tr>
-                   <tr><br>
-                       <td>SINGLE ROOM</td>
-                       <td>SHARED ROOM</td>
-                       <td>FLATS</td>
-                   </tr>
-               </table>
-               
-            </div>
         <div class="parallax"></div>  
-            
-            <div  class="banner">
-               
-               
+        <!-- --------------------------------------contact form -------------------------------- -->
+            <div style="height:400px">
+                 <ul class="nav nav-tabs">
+		
+		<li><a href="pro.html" target="frm">Contact Us</a></li>
+        <li id="frame"><a href="OurTeam.html" target="frm">Our Team</a></li>
+		<iframe  height="700px" width="100%" src="pro.html" name="frm"></iframe>             
             </div>
-         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+                    <!-- -------------------------------------footer -------------------------------- -->
+
+                   <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<span><a class="navbar-brand" href="#"><img src="logowhite.png" alt="" width="250px" height="100px"></a></span><br>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					·
+					<a href="#">Pricing</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Resiowl &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Fiends colony</span> jaipur, INDIA</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 9782154685</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@resiowl.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+			Our company aims at providing the best place to live or rent for our coustomers
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
 
          </body>
 </html>
